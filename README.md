@@ -10,7 +10,7 @@ Requirements:
 
 Run this bot locally on your Windows:
 
-`cmd
+`shell
 git clone https://github.com/lastmatchbureau/preview_generator_telegram_bot
 cd preview_generator_telegram_bot
 python -m venv env
