@@ -40,7 +40,7 @@ def start_command(message):
         if message.text.split(" ")[1] == PASSWORD and not is_authorized(message.chat.id):
             authorize(message.chat.id)
             bot.send_message(message.chat.id, "Successfully authorized!")
-        if is_authorized(message.chat.id):
+        elif is_authorized(message.chat.id):
             bot.reply_to(message, "Already authorized!")
         else:
             bot.reply_to(message, "Wrong password!")
