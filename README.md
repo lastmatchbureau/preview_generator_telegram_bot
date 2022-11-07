@@ -10,11 +10,10 @@ Requirements:
 
 Run this bot locally on your Windows:
 
-`
-git clone https://github.com/lastmatchbureau/preview_generator_telegram_bot
-cd preview_generator_telegram_bot
-python -m venv env
-.\env\Scripts\activate
-python bot.py
-`
+Run theese commands by order in cmd:
+1. `git clone https://github.com/lastmatchbureau/preview_generator_telegram_bot`
+2. `cd preview_generator_telegram_bot`
+3. `python -m venv env`
+4. `.\env\Scripts\activate`
+5. `python bot.py`
 
